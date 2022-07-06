@@ -1,0 +1,17 @@
+pty "pptp 183.82.123.41 --nolaunchpppd --debug"
+name admin
+password admin
+remotename PPTP
+require-mppe-128
+require-mschap-v2
+refuse-eap
+refuse-pap
+refuse-chap
+refuse-mschap
+noauth
+debug
+persist
+maxfail 0
+defaultroute
+replacedefaultroute
+usepeerdns
